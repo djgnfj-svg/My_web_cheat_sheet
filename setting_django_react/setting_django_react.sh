@@ -30,7 +30,7 @@ python manage.py startapp api
 # 1. .secrets.json setting
 temp=$(grep "SECRET_KEY" $1/settings.py)
 val=$(echo "${temp:13}" | sed 's/./"/' | sed 's/..$/"/')
-echo -e "{\n\t\"SECRET_KEY\" : $val \n}" > .secrets.json
+echo -e "{\n\t\"SECRET_KEY\" : ${val} \n}" > .secrets.json
 
 # 2. settings.py 설정 변경
 
