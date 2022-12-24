@@ -1,0 +1,1 @@
+bash setting_django_react django_projectname
