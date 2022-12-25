@@ -81,6 +81,8 @@ npx create-react-app .
 rm -rf .git
 
 cd ..
+# 5 create .gitignore
+touch .gitignore
 echo "react와 django 세팅이 완료 되었습니다."
 # 깃세팅은 보류...
 #add .gitignore는 https://www.toptal.com/developers/gitignore 로 가서 해줘!
