@@ -66,7 +66,7 @@ echo CORS_ALLOW_CREDENTIALS = True >> $1/settings.py
 
 # 3. backend/api에 views, utils, serialzier,tests 폴더 만들기
 mkdir api/Views api/Serialzier api/tests api/Utils
-
+rm api/tests.py api/views.py
 # 4. Front react settings
 cd ../frontend
 curl -sL deb.nodesource.com/setup_lts.x | sudo -E bash - 
